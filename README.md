@@ -2,8 +2,8 @@
 <h1 align="center">Football-Chatbot BotMan Studio</h1>
 
 <a href="https://snyk.io/test/github/Shusui95/Football-Chatbot?targetFile=package.json">Snyk : <img src="https://snyk.io/test/github/Shusui95/Football-Chatbot/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/Shusui95/Football-Chatbot?targetFile=package.json" style="max-width:100%;"></a><br/>
-<a href="https://www.codacy.com/app/jere.marchand/Football-Chatbot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Shusui95/Football-Chatbot&amp;utm_campaign=Badge_Grade">Codacy : <img src="https://api.codacy.com/project/badge/Grade/703b575784e54266b64344d1a4f037b5"/></a><br />
-<a href="https://travis-ci.org/Shusui95/Football-Chatbot">Travis : Prod -> <img src="https://travis-ci.org/Shusui95/Football-Chatbot.svg?branch=master"/> ||  Dev -> <img src="https://travis-ci.org/Shusui95/Football-Chatbot.svg?branch=develop"/></a>
+<a href="https://www.codacy.com/app/jere.marchand/Football-Chatbot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Shusui95/Football-Chatbot&amp;utm_campaign=Badge_Grade">Codacy : <img src="https://api.codacy.com/project/badge/Grade/703b575784e54266b64344d1a4f037b5" alt="Known Code quality"/></a><br />
+<a href="https://travis-ci.org/Shusui95/Football-Chatbot">Travis : Prod -> <img src="https://travis-ci.org/Shusui95/Football-Chatbot.svg?branch=master" alt="Known prod build status"/> ||  Dev -> <img src="https://travis-ci.org/Shusui95/Football-Chatbot.svg?branch=develop" alt="Known dev build status"/></a>
 
 ## About BotMan Studio
 
