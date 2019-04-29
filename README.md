@@ -26,4 +26,3 @@ If you discover a security vulnerability within BotMan or BotMan Studio, please 
 ## License
 
 BotMan is free software distributed under the terms of the MIT license.
-
