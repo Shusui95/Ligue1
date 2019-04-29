@@ -13,9 +13,7 @@ class PresentationConversation extends Conversation{
 	public function presentation(){
 		$bot = $this->getBot();
 		$user = $bot->getUser();
-		$bot->reply("Hello ".$user->getFirstName()." o/\n
-			I'm a chatbot. For interact with me, you have the persistent menu in the left bottom corner.\n
-			I can give you the results of French League 1, teams & strikers rankings");
+		$bot->reply("Hello ".$user->getFirstName()." o/\nI'm a chatbot. For interact with me, you have the persistent menu in the left bottom corner.\nI can give you the results of French League 1, teams & strikers rankings");
 	}
 
 	/**
