@@ -1,20 +1,20 @@
 language: php
-
 php:
-  - 7.1
-
+- 7.1
 before_script:
-  - composer self-update
-  - composer install --no-interaction
-  - cp .env.example .env
-  - php artisan key:generate
-
+- composer self-update
+- composer install --no-interaction
+- cp .env.example .env
+- php artisan key:generate
 script:
-  - vendor/bin/phpunit
-
-notifications:
+- vendor/bin/phpunit
+notifications: 
 email:
   recipients:
-    - jere.marchand@gmail.com
+  - jere.marchand@gmail.com
   on_success: always
   on_failure: always
+deploy:
+  provider: heroku
+  api_key:
+    secure: PbOAvnTo64N8838LBMrUPKSbZebekyMQnHb3i3uft/PtFDwsvrpasgQsab3ISRP2AOHl2Y61xGacJwoIlv1BmY91iLZ2v4XUYKjpFZGJA/5GIwX0CAGFKv9EQUKkOYF9dTVSnsx7ONp23YT3c6AH244mErpelElOo7WWUk869XdJKaDJ9Rz4o3CmLrykOPdelr8B3f186v8sOQn1lyxjX8LewQYvKpLx2q4j0UcIQ4EyXRlrBo51FFBo34a33Kr4yY9Y5CYy5tyPaqOTfOES+qHX1bns8TvqlTQapxaeh/wMPvpRG/9Ir38U+uRcXAxnUDhXlffwHPHgXD+WQGdKaKbEwApmTszzwhEw8gp+rPG/sO6ae4020aHgDjTiOo3T7IfhyxwgvHkCX4KGZEggPpDLozcd6TNFsGODzeaedP7SILavkpSBqw5LwxX0QGRrUv/1UfyVO27W8Gg8VP/TImB026LXN/MXmHp3uhKE6H5xaMrX7kz2nZxevgys748q9qyJgfZ/07H/HxiFEYU2WRlmY7csp+KuAhTklWFk0u3cBU44wen/8S8bEsvUpi6N+aNJX8R/Q/7TKlkSqu2vWbQiWt9NrxKD9wroBp1KowX3X4hNhHPgzAp7/nB6HipQfyyiLFMuW3r/iyOyViWnzPc0BRDiIIDrlcLGOin+VBg=
